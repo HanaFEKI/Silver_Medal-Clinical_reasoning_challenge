@@ -86,7 +86,7 @@ These constraints made it especially difficult to train and deploy large models 
 ---
 
 ## 📁 Project Structure
-
+```
 ├── notebooks/ # EDA and experiment tracking
 ├── src/
 │ ├── preprocess.py # Tokenization & formatting
@@ -96,7 +96,7 @@ These constraints made it especially difficult to train and deploy large models 
 ├── outputs/ # Submission files
 ├── requirements.txt # Dependencies
 └── README.md # You're here!
-
+```
 
 ---
 
