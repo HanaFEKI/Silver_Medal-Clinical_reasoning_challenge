@@ -125,7 +125,7 @@ python src/model.py
 
 ---
 # Author
-*Hana Feki 
-*Applied Math engineering student @ ENSTA Paris
-*Email: hana.feki@ensta.fr
-*Linkedin : https://www.linkedin.com/in/hana-feki/
+- Hana Feki 
+- Applied Math engineering student @ ENSTA Paris
+- Email: hana.feki@ensta.fr
+- Linkedin : https://www.linkedin.com/in/hana-feki/
