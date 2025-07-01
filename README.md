@@ -90,9 +90,7 @@ These constraints made it especially difficult to train and deploy large models 
 ├── notebooks/ # EDA and experiment tracking
 ├── src/
 │ ├── preprocess.py # Tokenization & formatting
-│ ├── model.py # Fine-tuning transformer models
-│ ├── inference.py # Prediction script
-│ └── utils.py # Text comparison and scoring
+│ └── model.py # Fine-tuning transformer model and inference
 ├── outputs/ # Submission files
 ├── requirements.txt # Dependencies
 └── README.md # You're here!
