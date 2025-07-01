@@ -1,0 +1,17 @@
+pandas
+seaborn
+matplotlib
+numpy
+
+torch
+pytorch-lightning
+
+transformers
+datasets
+
+scikit-learn
+nltk
+rouge
+rouge_score
+evaluate
+typing-extensions
