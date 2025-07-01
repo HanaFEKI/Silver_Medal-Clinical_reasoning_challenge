@@ -1,5 +1,12 @@
 ### Create prompt
 from textwrap import dedent
+import transformers
+import datasets
+from transformers import BartForConditionalGeneration, BartTokenizer, DataCollatorForSeq2Seq
+from datasets import Dataset, DatasetDict
+from sklearn.model_selection import train_test_split
+from nltk.tokenize import sent_tokenize
+import evaluate
 
 def generate_prompt(row):
     experience = f"with {int(row['Years of Experience'])} years of experience in general nursing" if 'Years of Experience' in row and not pd.isna(row['Years of Experience']) else ""
@@ -94,4 +101,3 @@ def compute_metrics(eval_pred):
         "rouge2": results["rouge2"],
         "rougeL": results["rougeL"]
     }
-
