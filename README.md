@@ -1,6 +1,6 @@
 # 🥈 Zindi Challenge: Kenya Clinical Reasoning Challenge – Silver Medal
 
-This repository contains my solution to the **Kenya Clinical Reasoning Challenge** hosted on the Zindi platform. I ranked **62nd out of 440 participants**, earning a **Silver Medal** 🥈 by building an NLP-based model that attempts to emulate the clinical reasoning of frontline Kenyan healthcare workers.
+This repository contains my solution to the **Kenya Clinical Reasoning Challenge** hosted on the Zindi platform. I ranked **61st out of 440 participants**, earning a **Silver Medal** 🥈 by building an NLP-based model that attempts to emulate the clinical reasoning of frontline Kenyan healthcare workers.
 
 <img width="1099" height="732" alt="Capture d’écran 2025-08-11 à 21 21 47" src="https://github.com/user-attachments/assets/220ced5c-d766-4b38-8f3a-6f6ccb4d7760" />
 
