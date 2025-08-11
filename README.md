@@ -2,8 +2,9 @@
 
 This repository contains my solution to the **Kenya Clinical Reasoning Challenge** hosted on the Zindi platform. I ranked **62nd out of 440 participants**, earning a **Silver Medal** 🥈 by building an NLP-based model that attempts to emulate the clinical reasoning of frontline Kenyan healthcare workers.
 
----
+<img width="1099" height="732" alt="Capture d’écran 2025-08-11 à 21 21 47" src="https://github.com/user-attachments/assets/220ced5c-d766-4b38-8f3a-6f6ccb4d7760" />
 
+---
 ## 🩺 Context
 
 In resource-limited settings like rural Kenya, nurses must make high-stakes medical decisions with limited tools and specialist backup. This challenge provided **400 authentic clinical vignettes**—each simulating a real-world scenario involving patient presentation, facility type, and nurse background. The objective was to **predict the most appropriate clinician response** to each case.
