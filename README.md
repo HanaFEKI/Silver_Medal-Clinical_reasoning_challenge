@@ -79,7 +79,7 @@ These constraints made it especially difficult to train and deploy large models 
 
 | Metric              | Value             |
 |---------------------|-------------------|
-| Final Rank          | 62 / 440          |
+| Final Rank          | 61 / 440          |
 | Medal               | 🥈 Silver         |
 | Evaluation Metric   | ROUGE Score       |
 | Private Leaderboard | 0.410231945       |
