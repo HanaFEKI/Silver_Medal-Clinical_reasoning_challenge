@@ -4,14 +4,14 @@ This repository contains my solution to the **Kenya Clinical Reasoning Challenge
 
 <img width="1099" height="732" alt="Capture d’écran 2025-08-11 à 21 21 47" src="https://github.com/user-attachments/assets/220ced5c-d766-4b38-8f3a-6f6ccb4d7760" />
 
----
+
 ## 🩺 Context
 
 In resource-limited settings like rural Kenya, nurses must make high-stakes medical decisions with limited tools and specialist backup. This challenge provided **400 authentic clinical vignettes**—each simulating a real-world scenario involving patient presentation, facility type, and nurse background. The objective was to **predict the most appropriate clinician response** to each case.
 
 Each response was previously evaluated by human experts and compared with top-tier AI models including **GPT-4**, **Gemini**, and **LLaMA**.
 
----
+
 
 ## 📦 About the Challenge
 
@@ -25,7 +25,7 @@ Our task was to **predict the clinician’s written response** to each scenario 
 
 > 🔍 These vignettes simulate daily decisions made by nurses under resource constraints, often without access to advanced diagnostics or specialist support.
 
----
+
 
 ## 📊 Dataset Summary
 
@@ -35,7 +35,7 @@ Our task was to **predict the clinician’s written response** to each scenario 
 - Tasks span **multiple medical specialties**, **geographies**, and **clinical contexts**  
 - Responses are free text, requiring **robust natural language understanding**
 
----
+
 
 ## 🧠 My Approach
 
@@ -58,7 +58,7 @@ Our task was to **predict the clinician’s written response** to each scenario 
 ### 🔹 4. Evaluation Strategy
 - Official evaluation used ROUGE only
 
----
+
 
 ### 🛠️ Resource Restrictions
 
@@ -73,7 +73,7 @@ Our task was to **predict the clinician’s written response** to each scenario 
 
 These constraints made it especially difficult to train and deploy large models like `bart-large` efficiently, forcing careful trade-offs in model size, training time, and deployment feasibility.
 
----
+
 
 ## 📈 Results
 
@@ -84,7 +84,7 @@ These constraints made it especially difficult to train and deploy large models 
 | Evaluation Metric   | ROUGE Score       |
 | Private Leaderboard | 0.410231945       |
 
----
+
 
 ## 📁 Project Structure
 ```
@@ -97,7 +97,7 @@ These constraints made it especially difficult to train and deploy large models 
 └── README.md # You're here!
 ```
 
----
+
 
 ## 💡 Key Learnings
 
@@ -106,7 +106,7 @@ These constraints made it especially difficult to train and deploy large models 
 - A small dataset still offers deep insights when annotated by true domain experts  
 - Balancing performance with deployment constraints is vital in real-world healthcare AI
 
----
+
 
 ## 🚀 Setup
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 python src/model.py
 ```
 
----
+
 # Author
 - Hana Feki 
 - Applied Math engineering student @ ENSTA Paris
