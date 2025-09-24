@@ -112,8 +112,8 @@ These constraints made it especially difficult to train and deploy large models 
 
 ```bash
 # Clone repo
-git clone https://github.com/HanaFEKI/Clinical_reasoning_challenge
-cd zindi-kenya-clinical-nlp
+git clone https://github.com/HanaFEKI/Silver_Medal-Clinical_reasoning_challenge.git
+cd Silver_Medal-Clinical_reasoning_challenge
 
 # Install dependencies
 pip install -r requirements.txt
